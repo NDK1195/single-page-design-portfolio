@@ -12,7 +12,138 @@
     <link rel="stylesheet" href="./src/output.css" />
     <title>Frontend Mentor | Single-page design portfolio</title>
   </head>
-  <body>
+  <body class="min-h-dvh bg-#FFF7F0">
+    <header
+      class="mx-auto mb-[100px] mt-4 max-w-[1110px] px-4 md:mb-[120px] md:mt-[34px] md:px-10 lg:mb-[136px] xl:px-0"
+    >
+      <nav class="mb-8 flex items-center justify-between md:mb-16 lg:mb-[66px]">
+        <img src="./assets/logo.svg" alt="logo" class="w-12 md:w-16" />
+        <button
+          class="flex h-11 w-44 items-center justify-center rounded-[28px] bg-#030303 text-sm font-bold leading-7 text-#FFF7F0 transition-colors hover:bg-#755CDE md:h-14 md:w-[228px] md:text-base"
+        >
+          Free Consultation
+        </button>
+      </nav>
+
+      <!-- hero content -->
+      <div
+        class="mx-auto mb-8 flex flex-col items-center gap-4 text-center md:mb-16 md:gap-[27px] lg:mb-20 lg:gap-[23px]"
+      >
+        <h1
+          class="mb-4 text-4xl font-bold leading-none text-#030303 md:text-[44px] lg:text-[56px]"
+        >
+          Design solutions made easy
+        </h1>
+        <p
+          class="max-w-[285px] font-medium leading-[26px] text-#7A746E md:max-w-[573px] md:text-lg md:leading-7 lg:max-w-[730px]"
+        >
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+      </div>
+      <!-- hero content -->
+
+      <!-- hero grid -->
+      <div
+        class="lg:grid-rows-grid-rows-[182px_158px] grid grid-cols-2 grid-rows-[182px_158px_182px_158px_182px_182px] gap-6 md:grid-cols-4 md:grid-rows-[182px_158px_182px] lg:grid-cols-6"
+      >
+        <!-- Graphic Design -->
+        <div
+          class="col-span-2 row-span-2 flex flex-col justify-between rounded-lg bg-#755CDE p-6"
+        >
+          <img
+            src="./assets/pattern-graphic-design.svg"
+            alt="pattern graphic design"
+            class="ml-auto"
+          />
+          <p class="text-2xl font-bold leading-none text-white">
+            Graphic Design
+          </p>
+        </div>
+        <!-- Graphic Design -->
+
+        <!-- UI/UX and Apps -->
+        <div class="col-span-2 grid grid-cols-2 gap-6 rounded-lg">
+          <!-- UI/UX -->
+          <div class="flex flex-col justify-between rounded-lg bg-#F6A560 p-6">
+            <img
+              src="./assets/pattern-ui-ux.svg"
+              alt="pattern ui ux"
+              class="ml-auto"
+            />
+            <p class="text-2xl font-bold leading-none text-white">UI/UX</p>
+          </div>
+          <!-- UI/UX -->
+
+          <!-- Apps -->
+          <div class="flex flex-col justify-between rounded-lg bg-#F39E9E p-6">
+            <img
+              src="./assets/pattern-apps.svg"
+              alt="pattern apps"
+              class="ml-auto"
+            />
+            <p class="text-2xl font-bold leading-none text-white">Apps</p>
+          </div>
+          <!-- UApps -->
+        </div>
+        <!-- graphic design -->
+
+        <!-- Illustrations -->
+        <div
+          class="col-span-2 flex flex-col justify-between rounded-lg bg-#EB7565 p-6"
+        >
+          <img
+            src="./assets/pattern-illustrations.svg"
+            alt="pattern illustrations"
+            class="ml-auto"
+          />
+          <p class="text-2xl font-bold leading-none text-white">
+            Illustrations
+          </p>
+        </div>
+        <!-- Illustrations -->
+
+        <!-- Photography -->
+        <div
+          class="col-span-2 flex flex-col justify-between rounded-lg bg-#61C4B7 p-6 lg:col-start-5 lg:row-start-1"
+        >
+          <img
+            src="./assets/pattern-photography.svg"
+            alt="pattern photography"
+            class="ml-auto"
+          />
+          <p class="text-2xl font-bold leading-none text-white">Photography</p>
+        </div>
+        <!-- Photography -->
+
+        <!-- Motion Graphics  -->
+        <div
+          class="col-span-2 flex flex-col justify-between rounded-lg bg-#552049 p-6"
+        >
+          <img
+            src="./assets/pattern-motion-graphics.svg"
+            alt="pattern motion graphics"
+            class="ml-auto"
+          />
+          <p class="text-2xl font-bold leading-none text-white">
+            Motion Graphics
+          </p>
+        </div>
+        <!-- Motion Graphics -->
+      </div>
+      <!-- hero grid -->
+    </header>
+
+    <footer
+      class="mx-auto mb-[34px] flex max-w-[1110px] items-center justify-between px-4 md:mb-14 md:px-10 lg:mb-16 xl:px-0"
+    >
+      <img src="./assets/logo.svg" alt="logo" class="w-12 md:w-16" />
+      <button
+        class="flex h-11 w-44 items-center justify-center rounded-[28px] bg-#030303 text-sm font-bold leading-7 text-#FFF7F0 transition-colors hover:bg-#755CDE md:h-14 md:w-[228px] md:text-base"
+      >
+        Free Consultation
+      </button>
+    </footer>
     <script src="./src/index.js"></script>
   </body>
 </html>
